@@ -58,6 +58,7 @@
 		62910AD81D79520800839042 /* MQPullDownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				62910AF41D79547F00839042 /* MQDownMenu */,
 				62910ADC1D79520800839042 /* AppDelegate.h */,
 				62910ADD1D79520800839042 /* AppDelegate.m */,
 				62910ADF1D79520800839042 /* ViewController.h */,
@@ -77,6 +78,13 @@
 				62910ADA1D79520800839042 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62910AF41D79547F00839042 /* MQDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MQDownMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +308,7 @@
 				62910AEF1D79520800839042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
