@@ -13,6 +13,7 @@
 		62910AE41D79520800839042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62910AE21D79520800839042 /* Main.storyboard */; };
 		62910AE61D79520800839042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62910AE51D79520800839042 /* Assets.xcassets */; };
 		62910AE91D79520800839042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62910AE71D79520800839042 /* LaunchScreen.storyboard */; };
+		62910AF71D7954C500839042 /* MQMesaageBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910AF61D7954C500839042 /* MQMesaageBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		62910AE51D79520800839042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62910AE81D79520800839042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62910AEA1D79520800839042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62910AF51D7954C500839042 /* MQMesaageBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMesaageBtn.h; sourceTree = "<group>"; };
+		62910AF61D7954C500839042 /* MQMesaageBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMesaageBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		62910AF41D79547F00839042 /* MQDownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				62910AF51D7954C500839042 /* MQMesaageBtn.h */,
+				62910AF61D7954C500839042 /* MQMesaageBtn.m */,
 			);
 			path = MQDownMenu;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			files = (
 				62910AE11D79520800839042 /* ViewController.m in Sources */,
 				62910ADE1D79520800839042 /* AppDelegate.m in Sources */,
+				62910AF71D7954C500839042 /* MQMesaageBtn.m in Sources */,
 				62910ADB1D79520800839042 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
