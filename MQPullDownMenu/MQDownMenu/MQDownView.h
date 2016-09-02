@@ -1,5 +1,5 @@
 //
-//  MQMesaageBtn.h
+//  MQDownView.h
 //  MQPullDownMenu
 //
 //  Created by irs on 16/9/2.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MQMesaageBtn : UIButton
-+ (MQMesaageBtn *)sharedButton;
+@interface MQDownView : UIView
+
++ (MQDownView *)sharedView;
+
++ (void)showDownMenu:(UIViewController *)viewController;
+
 @end

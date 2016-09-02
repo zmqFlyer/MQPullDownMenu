@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		62910ADB1D79520800839042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910ADA1D79520800839042 /* main.m */; };
 		62910ADE1D79520800839042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910ADD1D79520800839042 /* AppDelegate.m */; };
-		62910AE11D79520800839042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910AE01D79520800839042 /* ViewController.m */; };
 		62910AE41D79520800839042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62910AE21D79520800839042 /* Main.storyboard */; };
 		62910AE61D79520800839042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62910AE51D79520800839042 /* Assets.xcassets */; };
 		62910AE91D79520800839042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62910AE71D79520800839042 /* LaunchScreen.storyboard */; };
 		62910AF71D7954C500839042 /* MQMesaageBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910AF61D7954C500839042 /* MQMesaageBtn.m */; };
+		62910AFA1D79551B00839042 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910AF91D79551B00839042 /* HomeViewController.m */; };
+		62910AFD1D7956CE00839042 /* MQDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62910AFC1D7956CE00839042 /* MQDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		62910ADA1D79520800839042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62910ADC1D79520800839042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62910ADD1D79520800839042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62910ADF1D79520800839042 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62910AE01D79520800839042 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62910AE31D79520800839042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62910AE51D79520800839042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62910AE81D79520800839042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62910AEA1D79520800839042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62910AF51D7954C500839042 /* MQMesaageBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMesaageBtn.h; sourceTree = "<group>"; };
 		62910AF61D7954C500839042 /* MQMesaageBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMesaageBtn.m; sourceTree = "<group>"; };
+		62910AF81D79551B00839042 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		62910AF91D79551B00839042 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		62910AFB1D7956CE00839042 /* MQDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQDownView.h; sourceTree = "<group>"; };
+		62910AFC1D7956CE00839042 /* MQDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +67,8 @@
 				62910AF41D79547F00839042 /* MQDownMenu */,
 				62910ADC1D79520800839042 /* AppDelegate.h */,
 				62910ADD1D79520800839042 /* AppDelegate.m */,
-				62910ADF1D79520800839042 /* ViewController.h */,
-				62910AE01D79520800839042 /* ViewController.m */,
+				62910AF81D79551B00839042 /* HomeViewController.h */,
+				62910AF91D79551B00839042 /* HomeViewController.m */,
 				62910AE21D79520800839042 /* Main.storyboard */,
 				62910AE51D79520800839042 /* Assets.xcassets */,
 				62910AE71D79520800839042 /* LaunchScreen.storyboard */,
@@ -88,6 +91,8 @@
 			children = (
 				62910AF51D7954C500839042 /* MQMesaageBtn.h */,
 				62910AF61D7954C500839042 /* MQMesaageBtn.m */,
+				62910AFB1D7956CE00839042 /* MQDownView.h */,
+				62910AFC1D7956CE00839042 /* MQDownView.m */,
 			);
 			path = MQDownMenu;
 			sourceTree = "<group>";
@@ -162,10 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62910AE11D79520800839042 /* ViewController.m in Sources */,
 				62910ADE1D79520800839042 /* AppDelegate.m in Sources */,
 				62910AF71D7954C500839042 /* MQMesaageBtn.m in Sources */,
 				62910ADB1D79520800839042 /* main.m in Sources */,
+				62910AFA1D79551B00839042 /* HomeViewController.m in Sources */,
+				62910AFD1D7956CE00839042 /* MQDownView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
